@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18DC995353A8C1E1A29EA3E3 /* Pods_DataTransferThroughSingleton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF75AAEE296AC5B5B252760 /* Pods_DataTransferThroughSingleton.framework */; };
+		1CED48E334DE7C5DF2F56EB1 /* Pods_DataTransferThroughSingletonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DF4306E4486F0B85BF9ED3 /* Pods_DataTransferThroughSingletonTests.framework */; };
+		2E85C818BBAFABE5C100C852 /* Pods_DataTransferThroughSingletonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9511D97654893F1652CC1338 /* Pods_DataTransferThroughSingletonUITests.framework */; };
+		331C8F9823865AC200CA8FA3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C8F9723865AC200CA8FA3 /* SecondViewController.swift */; };
+		331C8F9A23865AD000CA8FA3 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C8F9923865AD000CA8FA3 /* ThirdViewController.swift */; };
+		331C8F9C23865AF900CA8FA3 /* DataTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C8F9B23865AF900CA8FA3 /* DataTransfer.swift */; };
 		331D7074238552C6003DD1E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D7073238552C6003DD1E7 /* AppDelegate.swift */; };
 		331D7076238552C6003DD1E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D7075238552C6003DD1E7 /* ViewController.swift */; };
 		331D7079238552C6003DD1E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331D7077238552C6003DD1E7 /* Main.storyboard */; };
@@ -34,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27DF4306E4486F0B85BF9ED3 /* Pods_DataTransferThroughSingletonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataTransferThroughSingletonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		331C8F9723865AC200CA8FA3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		331C8F9923865AD000CA8FA3 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		331C8F9B23865AF900CA8FA3 /* DataTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransfer.swift; sourceTree = "<group>"; };
 		331D7070238552C6003DD1E7 /* DataTransferThroughSingleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataTransferThroughSingleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		331D7073238552C6003DD1E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		331D7075238552C6003DD1E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,14 @@
 		331D708F238552C8003DD1E7 /* DataTransferThroughSingletonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTransferThroughSingletonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		331D7093238552C8003DD1E7 /* DataTransferThroughSingletonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransferThroughSingletonUITests.swift; sourceTree = "<group>"; };
 		331D7095238552C8003DD1E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ED23AF330617C97E98632EA /* Pods-DataTransferThroughSingletonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataTransferThroughSingletonTests.release.xcconfig"; path = "Target Support Files/Pods-DataTransferThroughSingletonTests/Pods-DataTransferThroughSingletonTests.release.xcconfig"; sourceTree = "<group>"; };
+		5AB537B054B83873F2A90220 /* Pods-DataTransferThroughSingletonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataTransferThroughSingletonTests.debug.xcconfig"; path = "Target Support Files/Pods-DataTransferThroughSingletonTests/Pods-DataTransferThroughSingletonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9511D97654893F1652CC1338 /* Pods_DataTransferThroughSingletonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataTransferThroughSingletonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45FF85E027873205FCEA905 /* Pods-DataTransferThroughSingletonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataTransferThroughSingletonUITests.release.xcconfig"; path = "Target Support Files/Pods-DataTransferThroughSingletonUITests/Pods-DataTransferThroughSingletonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CA5BAC930ADBF18078138B91 /* Pods-DataTransferThroughSingleton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataTransferThroughSingleton.debug.xcconfig"; path = "Target Support Files/Pods-DataTransferThroughSingleton/Pods-DataTransferThroughSingleton.debug.xcconfig"; sourceTree = "<group>"; };
+		D761B5048F6E98C5F0F58895 /* Pods-DataTransferThroughSingleton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataTransferThroughSingleton.release.xcconfig"; path = "Target Support Files/Pods-DataTransferThroughSingleton/Pods-DataTransferThroughSingleton.release.xcconfig"; sourceTree = "<group>"; };
+		DAF75AAEE296AC5B5B252760 /* Pods_DataTransferThroughSingleton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataTransferThroughSingleton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB08F4433CF78515AF74333E /* Pods-DataTransferThroughSingletonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataTransferThroughSingletonUITests.debug.xcconfig"; path = "Target Support Files/Pods-DataTransferThroughSingletonUITests/Pods-DataTransferThroughSingletonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DC995353A8C1E1A29EA3E3 /* Pods_DataTransferThroughSingleton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CED48E334DE7C5DF2F56EB1 /* Pods_DataTransferThroughSingletonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E85C818BBAFABE5C100C852 /* Pods_DataTransferThroughSingletonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 				331D7087238552C8003DD1E7 /* DataTransferThroughSingletonTests */,
 				331D7092238552C8003DD1E7 /* DataTransferThroughSingletonUITests */,
 				331D7071238552C6003DD1E7 /* Products */,
+				FF35D4C8B7102FB9BB208019 /* Pods */,
+				49D989A0B75864498166FD62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +122,9 @@
 			children = (
 				331D7073238552C6003DD1E7 /* AppDelegate.swift */,
 				331D7075238552C6003DD1E7 /* ViewController.swift */,
+				331C8F9723865AC200CA8FA3 /* SecondViewController.swift */,
+				331C8F9923865AD000CA8FA3 /* ThirdViewController.swift */,
+				331C8F9B23865AF900CA8FA3 /* DataTransfer.swift */,
 				331D7077238552C6003DD1E7 /* Main.storyboard */,
 				331D707A238552C8003DD1E7 /* Assets.xcassets */,
 				331D707C238552C8003DD1E7 /* LaunchScreen.storyboard */,
@@ -125,6 +151,30 @@
 			path = DataTransferThroughSingletonUITests;
 			sourceTree = "<group>";
 		};
+		49D989A0B75864498166FD62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAF75AAEE296AC5B5B252760 /* Pods_DataTransferThroughSingleton.framework */,
+				27DF4306E4486F0B85BF9ED3 /* Pods_DataTransferThroughSingletonTests.framework */,
+				9511D97654893F1652CC1338 /* Pods_DataTransferThroughSingletonUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF35D4C8B7102FB9BB208019 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA5BAC930ADBF18078138B91 /* Pods-DataTransferThroughSingleton.debug.xcconfig */,
+				D761B5048F6E98C5F0F58895 /* Pods-DataTransferThroughSingleton.release.xcconfig */,
+				5AB537B054B83873F2A90220 /* Pods-DataTransferThroughSingletonTests.debug.xcconfig */,
+				3ED23AF330617C97E98632EA /* Pods-DataTransferThroughSingletonTests.release.xcconfig */,
+				FB08F4433CF78515AF74333E /* Pods-DataTransferThroughSingletonUITests.debug.xcconfig */,
+				C45FF85E027873205FCEA905 /* Pods-DataTransferThroughSingletonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 331D7098238552C8003DD1E7 /* Build configuration list for PBXNativeTarget "DataTransferThroughSingleton" */;
 			buildPhases = (
+				0CC6107356A18D50F1115EE3 /* [CP] Check Pods Manifest.lock */,
 				331D706C238552C6003DD1E7 /* Sources */,
 				331D706D238552C6003DD1E7 /* Frameworks */,
 				331D706E238552C6003DD1E7 /* Resources */,
+				0DB3B3C7D464E4D5E1F780C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 331D709B238552C8003DD1E7 /* Build configuration list for PBXNativeTarget "DataTransferThroughSingletonTests" */;
 			buildPhases = (
+				7E2EE48D422D26B68D34DDF8 /* [CP] Check Pods Manifest.lock */,
 				331D7080238552C8003DD1E7 /* Sources */,
 				331D7081238552C8003DD1E7 /* Frameworks */,
 				331D7082238552C8003DD1E7 /* Resources */,
@@ -167,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 331D709E238552C8003DD1E7 /* Build configuration list for PBXNativeTarget "DataTransferThroughSingletonUITests" */;
 			buildPhases = (
+				EFF19239ACB0D4E009FE1F67 /* [CP] Check Pods Manifest.lock */,
 				331D708B238552C8003DD1E7 /* Sources */,
 				331D708C238552C8003DD1E7 /* Frameworks */,
 				331D708D238552C8003DD1E7 /* Resources */,
@@ -251,12 +305,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CC6107356A18D50F1115EE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DataTransferThroughSingleton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DB3B3C7D464E4D5E1F780C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DataTransferThroughSingleton/Pods-DataTransferThroughSingleton-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DataTransferThroughSingleton/Pods-DataTransferThroughSingleton-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DataTransferThroughSingleton/Pods-DataTransferThroughSingleton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E2EE48D422D26B68D34DDF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DataTransferThroughSingletonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFF19239ACB0D4E009FE1F67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DataTransferThroughSingletonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		331D706C238552C6003DD1E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				331C8F9823865AC200CA8FA3 /* SecondViewController.swift in Sources */,
 				331D7076238552C6003DD1E7 /* ViewController.swift in Sources */,
+				331C8F9C23865AF900CA8FA3 /* DataTransfer.swift in Sources */,
+				331C8F9A23865AD000CA8FA3 /* ThirdViewController.swift in Sources */,
 				331D7074238552C6003DD1E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +573,7 @@
 		};
 		331D7099238552C8003DD1E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA5BAC930ADBF18078138B91 /* Pods-DataTransferThroughSingleton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +591,7 @@
 		};
 		331D709A238552C8003DD1E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D761B5048F6E98C5F0F58895 /* Pods-DataTransferThroughSingleton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +609,7 @@
 		};
 		331D709C238552C8003DD1E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB537B054B83873F2A90220 /* Pods-DataTransferThroughSingletonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +630,7 @@
 		};
 		331D709D238552C8003DD1E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ED23AF330617C97E98632EA /* Pods-DataTransferThroughSingletonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +651,7 @@
 		};
 		331D709F238552C8003DD1E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB08F4433CF78515AF74333E /* Pods-DataTransferThroughSingletonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +671,7 @@
 		};
 		331D70A0238552C8003DD1E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C45FF85E027873205FCEA905 /* Pods-DataTransferThroughSingletonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
